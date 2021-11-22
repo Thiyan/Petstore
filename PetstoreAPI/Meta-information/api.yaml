@@ -4,7 +4,7 @@ id:
   version: 1.0.0
 description: This is a sample store to purchase pets
 type: HTTP
-context: /stores 
+context: /v2/1.0.5
 contextTemplate: /v2/{version}
 tags:
 - pet
