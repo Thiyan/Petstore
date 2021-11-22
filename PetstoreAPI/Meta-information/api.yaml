@@ -4,7 +4,7 @@ id:
   version: 1.0.0
 description: This is a sample store to purchase pets
 type: HTTP
-context: /v2/1.0.5
+context: /v2/1.0.0
 contextTemplate: /v2/{version}
 tags:
 - pet
@@ -13,6 +13,7 @@ tags:
 availableTiers:
 - name: Unlimited
 - name: Gold
+- name: Bronze
 status: PUBLISHED
 visibility: public
 transports: http,https
