@@ -1,0 +1,21 @@
+id:
+  providerName: admin
+  apiName: Petstore
+  version: 1.0.0
+description: This is a sample store to purchase pets
+type: HTTP
+context: /v2/1.0.5
+contextTemplate: /v2/{version}
+tags:
+- pet
+- store
+- user
+availableTiers:
+- name: Unlimited
+- name: Gold
+status: PUBLISHED
+visibility: public
+transports: http,https
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081
+enableStore: true

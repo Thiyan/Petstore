@@ -1,0 +1,16 @@
+environments:
+  - name: dev
+    endpoints:
+      production:
+        url: https://petstore.swagger.io
+        config:
+          retryTimeOut: $RETRY
+      sandbox:
+        url: https://petstore.swagger.io
+        config:
+          retryTimeOut: $RETRY
+
+deploy:
+  import:
+    update: true
+    preserveProvider: true
