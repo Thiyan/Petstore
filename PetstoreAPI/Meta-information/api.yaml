@@ -13,7 +13,6 @@ tags:
 availableTiers:
 - name: Unlimited
 - name: Gold
-- name: Bronze
 status: PUBLISHED
 visibility: public
 transports: http,https
